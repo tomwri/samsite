@@ -84,6 +84,12 @@
     margin-left: 10px;
     margin-right: 10px;
   }
+  aside{
+    width:200px;
+    border-left: 1px solid #999999;
+    padding: 0 1.25em;
+    float:right;
+  }
 /* Clearfix */
   .group:before,
   .group:after {
@@ -138,6 +144,7 @@
   /*paragraph*/
   p {
     margin-bottom: 10px;
+    max-width: 960px;
   }
   .text-offset {
     color: #827762;
