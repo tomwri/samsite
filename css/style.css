@@ -55,6 +55,8 @@
   }
 /*Colors*/
   /*  
+  Purdue Gold: #B1946c;
+  Black: #000;
   Blue: #591BE0
   Orange: #E0591B
   Green: #1BE059
@@ -105,8 +107,8 @@
   }
 /* Typography */
   h1, h2, h3, h4, h5, h6 {
-    color: #591BE0;
-    font-family: 'Comfortaa', cursive;
+    color: #B1946c;
+    font-family: 'Veranda', 'Helvetica','Arial';
     /*font-family: "PT Sans Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
     font-weight: 700;
   }
@@ -167,7 +169,7 @@
   }
 /* Misc styles */
   .divider {
-    border-bottom: 2px solid #e4de9a;
+    border-bottom: 2px solid #B1946c;
     margin-bottom: 47px;
     padding-bottom: 23px;
   }
@@ -182,7 +184,7 @@
   }
 /*Primary Header*/
   .primary-header {
-    background: #E0591B;
+    background: #000;
     border-bottom: 2px solid #c9905b;
     margin-bottom: 48px;
     padding: 3px 0;
@@ -199,16 +201,16 @@
     color: #fff;
   }
   .primary-logo a:hover {
-    color: #591BE0;
+    color: #B1946c;
   }
   .primary-logo span {
-    color: #591BE0;
+    color: #B1946c;
     text-shadow: none;
     text-transform: none;
   }
 /* Links */
   a {
-    color: #E0591B;
+    color: #000;
     text-decoration: none;
     -webkit-transition: all .15s linear;
        -moz-transition: all .15s linear;
