@@ -87,9 +87,10 @@
     margin-right: 10px;
   }
   aside{
-    width:200px;
+    width:20%;
     border-left: 1px solid #999999;
     padding: 0 1.25em;
+    position: relative;
     float:right;
   }
 /* Clearfix */
@@ -146,7 +147,8 @@
   /*paragraph*/
   p {
     margin-bottom: 10px;
-    max-width: 960px;
+    width: 70%;
+    position: relative;
   }
   .text-offset {
     color: #827762;
@@ -265,3 +267,7 @@
     margin-right: 0;
   }
 
+video {
+  width: 400px;
+  height: 400px;
+}
